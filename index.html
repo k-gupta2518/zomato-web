@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link fhref="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+        <title>zomato project</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="navbar_brand">
+                    <img height="70" width="70"  src="./assets/photo-1653389527532-884074ac1c65.jpeg" alt="logo" class="brand-logo"/>
+                </div>
+                <div class="navbar_nav_item">
+                    <div class="nav_items">
+                      <button class="button__primary hide__mobile">Order Food</button>
+                      <button
+                        class="button__primary hamburger__menu mobile__only"
+                        id="hamburgermenu"
+                      >
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                      </button>
+                    </div>
+                  </div>
+                </nav>
+                <div class="mobile__navbar__items mobile__only hamburger__menu__close">
+                  <ul>
+                    <li class="nav__item">Products</li>
+                    <li class="nav__item">Restaurants</li>
+                    <li class="nav__item">Pricing</li>
+                    <li class="nav__item">About Us</li>
+                  </ul>
+          
+                  <div class="nav__item">
+                    <button class="button__primary">Order Food</button>
+                    </div>
+                </div>
+        </header>
+        <main class="container">
+            <section class="hero_container">
+                <div class="hero_description">
+                  <div class="hero_image_container">
+                    <img height="350px" width="500px" src="./assets/Screenshot (38).png" alt="hero image" class="hero_image"/>
+                </div> 
+                    <h1 class="hero_text">
+                        Order food from favourite restaurants near you.
+                    </h1>
+                    <button class="button button_primary">ORDER FOOD</button> 
+                </div>  
+                
+            </section>
+               <section class="video_footage_container">
+                <div class="video_footage">
+                    <video  height="400px" width="600px" controls src="assets/Har Customer Hai Star! Ft. Katrina Kaif.mp4"frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" allowfullscreen class="chef__video"></video>
+                    <div class="video_footage_text">
+                    <p><b>
+                        Food is symbolic of love when words are inadequate
+                      </p>
+                    </div>
+               </div>
+               </section>
+               <section class="food_list_container" >
+                <h1 class="text-xl">Explore our menu</h1>
+                <div class="food_list_container_diagonal"></div>
+        
+                <div class="food_menu_card_list">
+                  <div class="food_menu_card">
+                    <img 
+                      src="assets/burger.jpeg"
+                      alt="burger"
+                      class="food_menu_card_image"
+                    />
+                    <div class="food_menu_card_details">
+                      <h4 class="text-lg"><strong>Burgers</strong></h4>
+                      <p>
+                        Burger King, Mcdonalds, Burger Place
+                        <span style="color: red">+3</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="food_menu_card food_menu_card_move_up">
+                    <img
+                      src="assets/pizza.jpeg"
+                      alt="pizza"
+                      class="food_menu_card_image"
+                    />
+                    <div class="food_menu_card_details">
+                      <h4 class="text-lg"><strong>Pizza</strong></h4>
+                      <p>
+                        Pizza Hut, Domino's Pizza
+                        <span style="color: red">+3</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="food_menu_card">
+                    <img
+                      src="assets/ice cream.jpeg"
+                      alt="iceCream"
+                      class="food_menu_card_image"
+                    />
+                    <div class="food_menu_card_details">
+                      <h4 class="text-lg"><strong>Ice Creams</strong></h4>
+                      <p>
+                        Baskin Robins, Ibaco
+                        <span style="color: red">+3</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                    </div>
+                </div>
+                <div class="food_list_view_more">View More</div>
+              </section>
+              <section class="restaurant__list__container">
+                <div class="restaurant__list__text">
+                  <h4 class="text-xl">Order From 100s of restaurants</h4>
+                </div>
+                <div class="restaurant__list__images__container">
+                  <div class="restaurant__list__row_1">
+                    <div>
+                      <img
+                        src="assets/res 1.jpeg"
+                        alt="restaurant1"
+                        class="restaurant1"
+                      />
+                    </div>
+                    <img
+                      src="assets/res 2.jpeg"
+                      alt="restaurant2"
+                      class="restaurant2"
+                    />
+                  </div>
+                  <div class="restaurant__list__row_2">
+                    <img
+                      src="assets/res 4.jpeg"
+                      alt="restaurant3"
+                      class="restaurant3"
+                    />
+                    <img
+                      src="assets/res 3.jpeg"
+                      alt="restaurant4"
+                      class="restaurant4"
+                    />
+                  </div>
+                </div>
+              </section>
+              <section class="email__subcribe__container">
+                <div>
+                  <h1 class="text-xl">Stay Updated</h1>
+                  <div class="email__subcribe__input__field">
+                    <div>
+                      <input
+                        type="email"
+                        placeholder="email@gmail.com"
+                        class="email__input"
+                      />
+                    </div>
+                    <button class="button__primary">Get Updates</button>
+                  </div>
+                </div>
+              </section>
+              <section class="quote__container">
+                <div class="quote_image_overlay"></div>
+                <h3 class="quote_image_text">
+                  When stomach is full with delicious food the happiness automatically revolves all around!!😃
+                </h3>
+              </section>
+            </main>
+            <footer>
+              <img src="assets/Zomato_Logo.svg.png" alt="logo" />
+              <ul>
+                <li>Pricing</li>
+                <li>Terms and condition</li>
+                <li>Partnership</li>
+                <li>Career</li>
+                <li>Contact</li>
+              </ul>
+            </footer>
+            <script>
+              const hamburgermenu = document.getElementById("hamburgermenu");
+              const mobileNavDropDown = document.querySelector(
+                ".mobile__navbar__items"
+              );
+              window.addEventListener("click", () => {
+                if (mobileNavDropDown.classList.contains("hamburger__menu__close"))
+                  return mobileNavDropDown.classList.remove("hamburger__menu__close");
+                return mobileNavDropDown.classList.add("hamburger__menu__close");
+              });
+            </script>
+          </body>
+        </html>
+        </body> 
+    </html>
