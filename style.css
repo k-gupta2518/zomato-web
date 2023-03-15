@@ -111,6 +111,7 @@ section{
   width: 100%;
   }
 .hero_image{
+    width: 350%;
     height: 90%;
     border-radius: 2%;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
@@ -121,20 +122,24 @@ section{
 }
 .hero_text{
     font: bold;
-    font-size: 300%;
+    font-size: 270%;
     color: #1d3557;
-    font-weight: 150%;
+    font-weight: 10%;
     line-height: 2.70rem;
     
 }
 .video_footage_container {
-    width: 100%;
+    position: relative;
+    left: -20px;
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+  }
+  .chef__video{
+    width: 120%;
   }
   
   .video_footage {
@@ -154,7 +159,7 @@ section{
     position: absolute;
     transform: translate(1rem, 1rem);
     height: 100%;
-    width: 100%;
+    width: 115%;
     z-index: -1;
   }
   
@@ -166,8 +171,8 @@ section{
     text-align: center;
   }
   .food_list_container {
+    left: 400;
     text-align: center;
-    width: 400px;
     margin-top: 3rem;
   }
   
@@ -278,6 +283,8 @@ section{
   }
 
   footer {
+    position: relative;
+    left: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -332,8 +339,9 @@ section{
     text-decoration: none;
 }
 .quote__container {
-  right: 70px;
+  right: -10px;
   position: relative;
+  margin-bottom: 2rem;
   margin-top: 4rem;
   align-items: center;
   display: flex;
@@ -374,9 +382,21 @@ section{
   flex-direction: row-reverse;
   align-items: center;
 }*/
-
 .hero_image {
+  width: 200%;
+  height: 450px;
   margin-top: 2rem;
+}
+.hero_text{
+ 
+  position: relative;
+  top: -350px;
+  right: -850px;
+}
+.button_primary{
+  position: relative;
+  top: -350px;
+  right: -850px;
 }
 
 .text-xl {
@@ -419,6 +439,7 @@ section{
   border-radius: 6px;
 }
 
+
 .food_menu_card_move_up {
   margin-top: -1rem;
   margin-bottom: 1rem;
@@ -429,6 +450,7 @@ section{
 }
 
 .video_footage_container {
+  margin-top: -20%;
   margin-bottom: 5rem;
   display: flex;
   flex-direction: row;
